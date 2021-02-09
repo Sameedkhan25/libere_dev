@@ -1,0 +1,45 @@
+{
+  "expo": {
+    "name": "libere",
+    "slug": "libere",
+    "version": "1.0.0",
+    "sdkVersion": "38.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#000000"
+    },
+    "androidStatusBar": {
+      "backgroundColor": "#C2185B",
+      "translucent": false
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "bundleIdentifier": "com.interstellus.libere"
+    },
+    "android": {
+      "config": {
+        "googleMaps": {
+          "apiKey": "AIzaSyCFLBQqLniUT75pLl2jNwqgxjdPRnFJoRw"
+        }
+      },
+      "permissions": [
+        "ACCESS_FINE_LOCATION",
+        "ACCESS_COARSE_LOCATION",
+        "LOCATION",
+        "CAMERA"
+      ],
+      "package": "com.interstellus.libere"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}

@@ -1,0 +1,6 @@
+export const USER_TYPE = {
+  SHOPKEEPER: "SHOPKEEPER",
+  CUSTOMER: "CUSTOMER",
+};
+
+export const REWARD_PURCHASE = 30;
